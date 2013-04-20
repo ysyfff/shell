@@ -9,3 +9,7 @@ echo "your whole para is   ------ '$@'"
 echo "The 1st parameter    ------ $1"
 echo "The 2st parameter    ------ $2"
 echo "The 3st parameter    ------ $3"
+shift
+echo "your whole para is   ------ '$@'"
+shift 2
+echo "your whole para is   ------ '$@'"
